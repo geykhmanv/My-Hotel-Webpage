@@ -1,5 +1,6 @@
-body {
-    background-color: rgba(96, 96, 230, 0.425);
+body.mybody {
+    background-color: rgba(231, 245, 247, 0.425);
+
 }
 main {
     border: solid 10px lightgoldenrodyellow;
@@ -11,7 +12,7 @@ main {
     position: relative;
     top: 20px;
 }
-h1, h2, h3 {
+h1 {
     color: rgb(76, 128, 161);
 }
 img {
@@ -25,5 +26,5 @@ a {
     color:rgb(44, 80, 102);
 }
 .container-fluid {
-    background-color: rgba(255, 192, 203, 0.596);
+    background-color: rgba(120, 165, 120, 0.596);
 }
