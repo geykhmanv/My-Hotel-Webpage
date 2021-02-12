@@ -30,13 +30,18 @@
             <p>
                 For more information, visit us at <a id="expedia-link" href="https://www.expedia.com/" target="_blank">Expedia</a>
             </p>
-            <h4>Our Story</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
-                Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. 
-                Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
-                Vestibulum lacinia arcu eget nulla.
-            </p>
+            <h4>You can reach us at:</h4>
+            <table>
+                <tr>
+                    <th scope="col">Phone Number:</th> 
+                    <th scope="col">Email: </th>
+                </tr>
+                <tr>
+                    <td>(222)-222-2222</td>
+                </tr>
+                
+            </table>
+
             <h4>Amenities</h4>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
@@ -55,17 +60,6 @@
             </tr>
         </table>
     </main>
-    <script>
-        //change heading color on mouseover/mouseout
-        const heading = document.getElementById('contact-us');
-        function mouseOverColor(){
-            heading.style.color = "orange";
-        }//function mouseOverColor()
-        function mouseOutColor() {
-            heading.style.color = "rgb(76, 128, 161)";
-        }//function mouseOutColor()
-        heading.addEventListener('mouseover', mouseOverColor);
-        heading.addEventListener('mouseout', mouseOutColor);
-    </script>
+    <script src="./scripts/contact-scripts.js"></script>
 </body>
 </html>
