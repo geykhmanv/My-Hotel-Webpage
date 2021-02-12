@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="mybody">
+    <nav class="nav navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">My Hotel</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+            </div>
+    </nav>
+    <main>
+        <h1>Make a Reservation</h1><br>
+        <form>
+            <label>First Name: </label>
+            <input type="text" id="fname"><br>
+            <label>Last Name: </label>
+            <input type="text" id="lname"><br>
+            <label>Address: </label>
+            <input type="text" id="address"><br>
+            <label for="city">City:</label>
+            <input type="text" id = "city" name = "city"><br>
+            <label for="state">State:</label>
+            <input type="text" id = "state" name = "state"><br>
+            <label for="zip">Zip Code:</label>
+            <input type="text" id = "zip" name = "zip"><br>
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id = "checkin" name = "checkin" required ><br>
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id = "checkout" name = "checkout" required><br>
+            <label for="people">Number of People:</label>
+            <input type="text" id = "people" name = "people"><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id = "phone" name = "phone" placeholder = "(###) ###-####"><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id = "email" name = "email" placeholder = "name@domain.com" required><br>
+            <label for="payment">Payment Method:</label>
+            <select style="width: 40%;" name="payment" required>
+                    <option value="MC">Mastercard</option>
+                    <option value="VISA">Visa</option>
+                    <option value="AMEX">American Express</option>
+                    <option value="DISC">Discover</option>
+            </select><br>
+            <label for="card">Card Number:</label>
+            <input type="text" id="card" name="card" required ><br>
+
+            <label style="font-weight:bold" for = "special">Special Requests:</label>
+            <input style="height: 50px"type="text" id = "special" name = "special"><br><br>
+            <input type="submit" value="Submit"> <input type="reset" value="Clear">
+        </form>
+        <table>
+            <th>Copyright &#169;</th>
+            <tr>
+                <td>My Hotel Enterprises 2021</td>
+            </tr>
+            <tr>
+                <td>Victoria Geykhman</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>

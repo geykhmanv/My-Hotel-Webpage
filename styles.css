@@ -28,3 +28,20 @@ a {
 .container-fluid {
     background-color: rgba(120, 165, 120, 0.596);
 }
+form {
+    border: solid 5px rgba(0, 0, 0, 0.151);
+    border-radius: 5%;
+    padding: 10px;
+    background-color: rgba(120, 165, 120, 0.596);
+}
+form input {
+    display: inline-block;
+    width: 40%;
+}
+form label {
+    display: inline-block;
+    width: 200px;
+}
+table {
+    font-size: 10pt
+}
