@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .contact-info  {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            font-size: 12pt;
+        }
+        .hotel-info {
+            background-color: rgba(120, 165, 120, 0.596);
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 10%;
+        }
+    </style>
 </head>
 <body class="mybody">
     <nav class="nav navbar-default">
@@ -29,26 +43,24 @@
             <h3>We want to help!</h3>
             <p>
                 For more information, visit us at <a id="expedia-link" href="https://www.expedia.com/" target="_blank">Expedia</a>
-            </p>
-            <h4>You can reach us at:</h4>
-            <table>
+            </p><br>
+            <h4>You can reach us at:</h4><br><br>
+            <table class="contact-info">
                 <tr>
-                    <th scope="col">Phone Number:</th> 
-                    <th scope="col">Email: </th>
-                </tr>
-                <tr>
+                    <td><strong>Phone Number:</strong></th>
+                    <td><strong>Email:</strong></th>
+                  </tr>
+                  <tr>
                     <td>(222)-222-2222</td>
-                </tr>
+                    <td><a href="mailto:myHotel@myHotel.com">myHotel@myHotel.com</a></td>
+                  </tr>
                 
-            </table>
-
-            <h4>Amenities</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
-                Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. 
-                Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
-                Vestibulum lacinia arcu eget nulla.
-            </p>
+            </table><br><Br>
+            <h4>Leave us a comment below:</h4>
+            <form>
+                <input style="height: 80px" type="text" id="comment"><br><br>
+                <input class="btn btn-light"type="submit" value="Submit"> <input class="btn btn-light" type="reset" value="Clear">
+            </form>
         </article><br><br>
         <table>
             <th>Copyright &#169;</th>
