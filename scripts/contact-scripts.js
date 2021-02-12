@@ -8,3 +8,12 @@ function mouseOutColor() {
 }//function mouseOutColor()
 heading.addEventListener('mouseover', mouseOverColor);
 heading.addEventListener('mouseout', mouseOutColor);
+
+//store customer reviews in array and show them on click of button
+const reviewsArr = ["great", "wonderful", "terrible"];
+function readReviews() {
+    for(let i=0; i < reviewsArr.length; i++) {
+        document.getElementById('customer-reviews').innerHTML += "<p>" + reviewsArr[i] + "</p><br>";
+        console.log(reviewsArr[i]);
+    }//for(let i=0; i < reviewsArr.length; i++) 
+}//function readReviews()

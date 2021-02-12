@@ -35,4 +35,5 @@ let interval = setInterval(function() {
         clearInterval(interval);
         document.getElementById('countdown').innerHTML = "EXPIRED";
     }
-}, 1000);
+}, 1000); //countdown timer
+

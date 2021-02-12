@@ -11,6 +11,7 @@ main {
     margin: auto;
     position: relative;
     top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main h1 {
     color: rgb(76, 128, 161);
