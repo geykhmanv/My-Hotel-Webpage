@@ -3,3 +3,30 @@ My Hotel is located in Puerto Vallarta.  The weather widget at the top of the ho
 
 Some extra features for user interactivity include color-changing title's on every page via 'mouseover/mouseout' events, connecting to a weather forecast API, and the comment section on the Contact Us page.
 
+HTML
+- 10+ tags
+- tables
+- forms with <select> drop down
+- lists
+- buttons
+- regex validation
+- images
+
+CSS
+- inline
+- internal
+- external
+- bootstrap
+- web fonts
+- selecting by id, class, element, psuedoclass, and child of parent
+
+JavaScript
+- external scripts
+- functions
+- loops
+- if statements
+- events
+- arrays
+- external API
+
+
