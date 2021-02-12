@@ -57,12 +57,10 @@
                 
             </table><br><Br>
             <h4>Leave us a comment below:</h4>
-            <form>
-                <input style="height: 80px" type="text" id="comment"><br><br>
-                <input class="btn btn-light"type="submit" value="Submit"> <input class="btn btn-light" type="reset" value="Clear">
-            </form>
-            <button type="button" class="btn btn-light" onclick=readReviews()>Read Reviews</button><br><br><br>
-            <div id="customer-reviews"></div>
+            <input type="text" id="comment"></input><br><br>
+            <input type="button" class="btn btn-light" id="submit-comment" value="Submit" onclick="addComment();"></input>
+            <input type="button" class="btn btn-light" id="read-reviews" value="Read Reviews" onclick="displayComment();"></input>
+            <div id="Result"></div> 
         </article><br><br>
         <table>
             <th>Copyright &#169;</th>

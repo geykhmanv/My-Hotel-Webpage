@@ -9,11 +9,21 @@ function mouseOutColor() {
 heading.addEventListener('mouseover', mouseOverColor);
 heading.addEventListener('mouseout', mouseOutColor);
 
-//store customer reviews in array and show them on click of button
-const reviewsArr = ["great", "wonderful", "terrible"];
-function readReviews() {
-    for(let i=0; i < reviewsArr.length; i++) {
-        document.getElementById('customer-reviews').innerHTML += "<p>" + reviewsArr[i] + "</p><br>";
-        console.log(reviewsArr[i]);
-    }//for(let i=0; i < reviewsArr.length; i++) 
-}//function readReviews()
+//submit comments and display them
+var x = 0;
+var reviewArray = Array();
+
+function addComment() {
+    reviewArray[x] = document.getElementById("comment").value;
+ alert("Comment submitted");
+ x++;
+ document.getElementById("comment").value = "";
+}//function addComment()
+
+function displayComment() {
+   var e = "<br>";   
+   for (var i=0; i < reviewArray.length; i++){
+     e += "Review: " + reviewArray[i] + "<br/>";
+   }//for (var i=0; i<reviewArray.length; i++)
+   document.getElementById("Result").innerHTML = e;
+}//function displayComment()
