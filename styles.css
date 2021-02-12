@@ -12,7 +12,7 @@ main {
     position: relative;
     top: 20px;
 }
-h1 {
+main h1 {
     color: rgb(76, 128, 161);
 }
 img {
@@ -20,10 +20,18 @@ img {
     width: 700px;
     height: 400px;
 }
+#hotel-staff {
+    width: 700px;
+    height: 300px;
+}
 a {
     text-decoration: none;
     font-weight: bold;
     color:rgb(44, 80, 102);
+}
+#expedia-link:hover {
+    color:rgba(161, 55, 211, 0.637);
+    text-decoration: none;
 }
 .container-fluid {
     background-color: rgba(120, 165, 120, 0.596);

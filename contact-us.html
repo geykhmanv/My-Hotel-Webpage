@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="mybody">
+    <nav class="nav navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">My Hotel</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+            </div>
+    </nav>
+    <main>
+        <h1 id="contact-us">Contact Us</h1>       
+        <img id="hotel-staff" src="https://www.siteminder.com/wp-content/uploads/2017/07/young-workers.jpg" class="img-rounded">
+        <article class="hotel-info">
+            <h3>We want to help!</h3>
+            <p>
+                For more information, visit us at <a id="expedia-link" href="https://www.expedia.com/" target="_blank">Expedia</a>
+            </p>
+            <h4>Our Story</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
+                Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. 
+                Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla.
+            </p>
+            <h4>Amenities</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
+                Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. 
+                Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla.
+            </p>
+        </article><br><br>
+        <table>
+            <th>Copyright &#169;</th>
+            <tr>
+                <td>My Hotel Enterprises 2021</td>
+            </tr>
+            <tr>
+                <td>Victoria Geykhman</td>
+            </tr>
+        </table>
+    </main>
+    <script>
+        //change heading color on mouseover/mouseout
+        const heading = document.getElementById('contact-us');
+        function mouseOverColor(){
+            heading.style.color = "orange";
+        }//function mouseOverColor()
+        function mouseOutColor() {
+            heading.style.color = "rgb(76, 128, 161)";
+        }//function mouseOutColor()
+        heading.addEventListener('mouseover', mouseOverColor);
+        heading.addEventListener('mouseout', mouseOutColor);
+    </script>
+</body>
+</html>
