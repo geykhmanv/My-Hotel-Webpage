@@ -43,7 +43,7 @@ a {
     padding: 10px;
     background-color: rgba(120, 165, 120, 0.596);
 }
-form input {
+form > input {
     display: inline-block;
     width: 40%;
 }
